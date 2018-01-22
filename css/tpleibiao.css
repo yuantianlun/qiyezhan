@@ -1,0 +1,336 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-01 18:50:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-03 09:00:09
+*/
+@import url('base.css');
+a{
+    color: #7a7a7a;
+    text-decoration: none;
+}
+a:hover{
+	color: #000;
+}
+header{
+	height: 42px;
+    width: 100%;
+    padding-top: 41px;
+    padding-bottom: 19px;
+}
+.header-box{
+	height: 42px;
+    width: 1200px;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+	width: 333px;
+    height: 42px;
+    display: flex;
+}
+.header-left-left{
+    width: 173px;
+    height: 42px;
+    /* border-right: 1px solid #000; */
+}
+.header-left-righht{
+    width: 160px;
+    height: 42px;
+
+}
+.header-right{
+	width: 320px;
+	height: 42px;
+	display: flex;
+	font-size: 12px;
+}
+.header-right-1{
+	width: 56px;
+	height: 19px;
+    padding-top: 14px;
+    color: #434343;
+}
+.header-right-1 a{
+    color: #434343;
+}
+.header-right-1:nth-child(7) a{
+	color: red;
+}
+.header-right-1 i{
+	font-size: 10px;
+	color: #434343;
+}
+.header-right-1 a:hover{
+	color: red;
+}
+.header-right-2{
+    width: 10px;
+    height: 9px;
+    padding: 14px 5px 0 5px;
+    color: #f0f0f0;
+}
+
+.bannerdhz{
+	width: 100%;
+	height: 220px;
+	background: #e4e4e4;
+}
+.banner{
+	width: 1200px;
+	/* height: 600px; */
+	margin: 0 auto;
+	background: red;
+	position: relative;
+}
+.banner ul{
+	width: 1224px;
+	height: 220px;
+	margin: 0 auto;
+	position: absolute;
+	
+}
+.banner ul li{
+	width: 1224px;
+	height: 220px;
+	position: absolute;
+	margin: 0 auto;
+}
+.banner ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+nav{
+    width: 1014px;
+    height: 334px;
+    position: relative;
+    top: -33px;
+    margin: 0 auto 0;
+    background-image: url('../img/navhz.jpg');
+    background-repeat: no-repeat;
+}
+.nav{
+    width: 936px;
+    padding-top: 32px;
+    margin: 0 auto 0;
+}
+.nav-left{
+	float: left;
+    width: 249px;
+    height: 156px;
+}
+.nav-lefthz{
+    width: 195px;
+}
+.nav-lefthz-1{
+    border: 1px #e4e4e4 solid;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #7e7e7e;
+}
+.nav-lefthz-2{
+    margin-top: 8px;
+    border: 1px #e4e4e4 solid;
+    background-color: #bf0000;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.nav-lefthz-2 a{
+    color: #000;
+}
+.nav-lefthz-3{
+    margin-top: 8px;
+    border: 1px #e4e4e4 solid;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #7e7e7e;
+    font-weight: bold;
+}
+.nav-right{
+    float: left;
+    height: 302px;
+    padding-left: 32px;
+    width: 655px;
+}
+.nav-right-top{
+	padding-left: 10px;
+    font-size: 14px;
+    color: #909090;
+}
+.nav-right-center{
+	width: 652px;
+	height: 105px;
+    text-align: center;
+    padding-top: 37px;
+}
+.nav-right-center-img{
+    width: 130px;
+    text-align: center;
+    float: left;
+    font-size: 10px;
+    color: #7a7a7a;
+}
+
+
+.nav-right-bottom{
+	width: 652px;
+	height: 142px;
+    text-align: center;
+    padding-top: 37px;
+}
+.nav-right-bottom-img{
+    width: 130px;
+    text-align: center;
+    float: left;
+    font-size: 10px;
+    color: #7a7a7a;
+    position: relative;
+}
+.nav-right-center-img-sp{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 115px;
+    left: 360px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-center-img-sp1{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 115px;
+    left: 490px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-center-img-sp2{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 115px;
+    left: 620px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-center-img-sp3{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 115px;
+    left: 750px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-center-img-sp4{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 115px;
+    left: 880px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-bottom-img-sp5{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-bottom-img-sp6{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-bottom-img-sp7{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-bottom-img-sp8{
+    width: 40px;
+    height: 28px;
+    background: red;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    /* cursor: pointer; */
+    background: url('../img/sh7.png') no-repeat;
+}
+.nav-right-center-img:hover .nav-right-center-img-sp{
+    background: url('../img/sh8.png') no-repeat;
+}
+
+footer{
+	background-color: #e4e4e4;
+    height: 77px;
+    position: relative;
+    top: 0px;
+}
+.footer{
+	width: 1003px;
+    margin: 0 auto 0;
+    font-size: 12px;
+}
+.footer-wenzi1{
+	float: left;
+    padding-left: 90px;
+    padding-top: 26px;
+    color: #909090;
+    line-height: 18px;
+
+}
+.footer-wenzi2{
+	float: left;
+    padding-top: 25px;
+    width: 62px;
+    color: #909090;
+    padding-left: 10px;
+    line-height: 20px;
+}
+.footer-img1{
+	float: left;
+    padding-top: 26px;
+}
+.footer-img2{
+	padding-left: 25px;
+    width: 28px;
+    margin-top: 0px;
+}
+.footer-img3{
+	width: 28px;
+    margin-top: 0px;
+}
+.footer-img4{
+	float: left;
+    width: 80px;
+    text-align: left;
+    padding-top: 20px;
+}
